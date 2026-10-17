@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+.vscode/
+
+# FreeCAD backups, locks, and crash recovery
+*.FCBak
+*.FCStd[1-9]
+*.lock
+fc_recovery_file*
+
+# FreeCAD FEM / CalculiX solver scratch files
+*.inp
+*.frd
+*.dat
+*.sta
+*.cvg
+spooles.out
+
+# Bambu Studio CLI & slicer outputs
+result.json
+*.arranged.3mf
+*.gcode
+*.gcode.3mf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
